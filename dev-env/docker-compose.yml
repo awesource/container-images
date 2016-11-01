@@ -4,7 +4,7 @@
 # ------------------------------#
 
 unitics-core-webserver:
-  image: phpdockerio/nginx:latest
+  image: phpdockerio/nginx
   container_name: unitics-core-webserver
   volumes:
       - ..:/var/www/unitics-core
